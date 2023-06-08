@@ -97,6 +97,12 @@ button {
     font-weight: 100;
 }
 
+.second-section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
 .header-title {
     display: flex;
     justify-content: center;
@@ -108,12 +114,21 @@ button {
 }
 
 img {
-    width: 80px;
+    width: 160px;
     border: 1px solid black;
+    border-radius: 20px;
+    border: 4px solid #3882f6;
 }
 
 .boxes {
     display: flex;
     flex-wrap: wrap;
     color: rgb(110, 107, 107);
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.one {
+    max-width: 160px;
 }
