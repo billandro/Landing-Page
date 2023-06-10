@@ -163,3 +163,45 @@ img {
     font-weight: 900;
     color: #1f2937;
 }
+
+.fourth-section {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    color: white;
+}
+
+.first-holder {
+    display: flex;
+    background-color: #3882f6;
+    min-width: 900px;
+    border-radius: 8px;
+    padding: 50px;
+}
+
+.holder {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.first {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.buttons {
+    border: 2px solid white;
+    margin-left: auto;
+}
+
+.footer {
+    display: flex;
+    background: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: white;
+}
